@@ -1,0 +1,15 @@
+{
+  "name": "task-ui",
+  "version": "1.0.0",
+  "scripts": {
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "task-library": "file:../task-library"
+  },
+  "engines": {
+    "node": "8.4.9",
+    "npm": "5.6.0"
+  }
+}
