@@ -35,7 +35,7 @@ Given an array of **transactions** as specified below, create a library that exp
 
 > You should develop this exercise  in the `task-ui` directory.
 
-Using the **Test Server** described below, write n user interface that renders a **grid** of transactions.
+Using the **Test Server** described below, write a user interface that renders a **grid** of transactions.
 
 ### Requirements
 
