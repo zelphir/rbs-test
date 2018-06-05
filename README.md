@@ -33,7 +33,7 @@ Given an array of **transactions** as specified below, create a library that exp
 
 ## Part 2: UI project
 
-> You should develop this exercise  in the `task-ui` directory.
+> You should develop this exercise in the `task-ui` directory.
 
 Using the **Test Server** described below, write a user interface that renders a **grid** of transactions.
 
@@ -47,6 +47,8 @@ Using the **Test Server** described below, write a user interface that renders a
 ### Acceptance criteria
 
 * Your project must have unit tests.
+* All your code should be written using standard JavaScript modules
+* Your application must run in the latest version of Google Chrome
 * Your project must have a README.md file that explains how to build it, run the tests and explains how test your project in a browser.
 
 ## Test Server
