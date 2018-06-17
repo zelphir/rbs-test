@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionsList /> should match the snapshot 1`] = `
+<React.Fragment>
+  <Toolbar
+    searchBy={[Function]}
+    sortBy={[Function]}
+  />
+  <table>
+    <TableHeader
+      headers={
+        Object {
+          "account": "86389677",
+          "amount": 85.91,
+          "business": "Bode - Kreiger",
+          "date": "2012-02-02T00:00:00.000Z",
+          "id": 1,
+          "name": "Savings Account 6670",
+          "type": "withdrawal",
+        }
+      }
+    />
+    <tbody>
+      <TableRow
+        key="1"
+        transaction={
+          Object {
+            "account": "86389677",
+            "amount": 85.91,
+            "business": "Bode - Kreiger",
+            "date": "2012-02-02T00:00:00.000Z",
+            "id": 1,
+            "name": "Savings Account 6670",
+            "type": "withdrawal",
+          }
+        }
+      />
+      <TableRow
+        key="2"
+        transaction={
+          Object {
+            "account": "86389532",
+            "amount": 45.91,
+            "business": "Bode - Kreiger",
+            "date": "2012-04-02T00:00:00.000Z",
+            "id": 2,
+            "name": "Money Account 4582",
+            "type": "deposit",
+          }
+        }
+      />
+    </tbody>
+  </table>
+</React.Fragment>
+`;

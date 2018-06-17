@@ -17,3 +17,7 @@ test(`filter not found returns empty array`, () => {
 test(`filter by name 'c'`, () => {
   expect(searchByName(transactions, 'c')).toEqual([{ name: 'a c name' }])
 })
+
+test(`filter by name 'c' case insensitive`, () => {
+  expect(searchByName(transactions, 'C')).toEqual([{ name: 'a c name' }])
+})

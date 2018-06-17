@@ -8,14 +8,16 @@
     "create-db": "node scripts/create-db.js > db.json",
     "test:library": "cd task-library && npm t",
     "test:ui": "cd task-ui && npm t",
+    "test:all": "npm run test:library && npm run test:ui",
     "lint": "eslint .",
     "install:ui": "cd task-ui && $npm_execpath install",
     "install:lib": "cd task-library && $npm_execpath install && npm run build",
     "install:all": "$npm_execpath run install:lib && $npm_execpath run install:ui",
-    "precommit": "npm run lint && npm run test:library && lint-staged",
+    "precommit": "npm run lint && npm run test:all && lint-staged",
     "postinstall": "$npm_execpath run install:all"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
     "eslint-plugin-jest": "^21.17.0",
     "eslint-plugin-react": "^7.9.1",

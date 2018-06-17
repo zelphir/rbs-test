@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableHead /> should match the snapshot 1`] = `
+<thead>
+  <tr>
+    <th
+      key="id"
+    >
+      id
+    </th>
+    <th
+      key="amount"
+    >
+      amount
+    </th>
+    <th
+      key="date"
+    >
+      date
+    </th>
+    <th
+      key="business"
+    >
+      business
+    </th>
+    <th
+      key="name"
+    >
+      name
+    </th>
+    <th
+      key="type"
+    >
+      type
+    </th>
+    <th
+      key="account"
+    >
+      account
+    </th>
+  </tr>
+</thead>
+`;

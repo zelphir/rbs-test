@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Toolbar /> should match the snapshot 1`] = `
+<div
+  className="toolbar"
+>
+  <input
+    onChange={[MockFunction]}
+    placeholder="Search by name..."
+  />
+  <div
+    className="sort"
+  >
+    Sort by Amount:
+     
+    <button
+      data-order="ASC"
+      onClick={[MockFunction]}
+    >
+      ASC
+    </button>
+     
+    |
+     
+    <button
+      data-order="DESC"
+      onClick={[MockFunction]}
+    >
+      DESC
+    </button>
+  </div>
+</div>
+`;
