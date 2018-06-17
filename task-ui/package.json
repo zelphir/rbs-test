@@ -1,7 +1,10 @@
 {
   "name": "task-ui",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "react": "^16.4.0",
@@ -9,7 +12,15 @@
     "task-library": "file:../task-library"
   },
   "engines": {
-    "node": "8.4.9",
+    "node": "8.11.3",
     "npm": "5.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.0.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.1.0",
+    "parcel-bundler": "^1.9.1"
   }
 }
